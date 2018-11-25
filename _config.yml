@@ -1,0 +1,29 @@
+title: Han's blog
+email: han@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Enjoying the ride to maximum entropy.
+baseurl: ""
+url: ""
+twitter_username: han
+github_username:  han
+show_excerpts: false
+
+# Build settings
+markdown: kramdown
+excerpt_separator: <!--more-->
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+kramdown:
+  input: GFM
+  auto_ids: true
